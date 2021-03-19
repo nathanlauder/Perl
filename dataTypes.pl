@@ -1,4 +1,5 @@
 use strict;
+use warnings;
 
 # variables in general
 # "my" creates variable with a local scope
@@ -17,7 +18,18 @@ print "\$array[2] = $array[2]\n";
 # hashmaps/tables are symbolized with a %
 # and accessed by key with {}
 
-my %hash = ("Nathan", "CompSci", "Taylor", "Biology", "Lauren", "Pharmacy");
-print("\$hash{Nathan} = $hash{Nathan}\n");
-print("\$hash{Taylor} = $hash{Taylor}\n");
-print("\$hash{Lauren} = $hash{Lauren}\n");
+my %hash = ("Nathan" => "CompSci", "Taylor" => "Biology", "Lauren" => "Pharmacy");
+print("\$hash{Nathan} => $hash{Nathan}\n");
+print("\$hash{Taylor} => $hash{Taylor}\n");
+print("\$hash{Lauren} => $hash{Lauren}\n");
+
+#basic hash functions
+#keys and values--returned as lists
+my @keys = keys %hash;
+my @vals = values %hash;
+print("\@keys: @keys\n");
+print("\@vals: @vals\n");
+# can iterate over the key=>value pairings
+while ( my ($key, $value) = each %hash ) { 
+      print "Key: $key Value: $value\n";
+}
