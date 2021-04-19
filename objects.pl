@@ -17,4 +17,4 @@ sub DESTROY {
     print "destroys object";
 }
 
-my $person = new Person("Nathan", "123456789", )
+my $person = new Person("Nathan", "123456789");
