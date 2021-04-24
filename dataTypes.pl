@@ -33,3 +33,11 @@ print("\@vals: @vals\n");
 while ( my ($key, $value) = each %hash ) { 
       print "Key: $key Value: $value\n";
 }
+
+my $x = 0;
+while($x++ < 10) {
+      print $x+"\n";
+      if ($x==4) {
+            print "Halfway there\n";
+      }
+}
