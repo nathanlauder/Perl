@@ -42,6 +42,10 @@ while($x++ < 10 && $y-- > 0) {
             print "Halfway there\n";
       }
 }
+my $num = 0;
 while (1) {
-	print "infinite loop\n";
+	$num++;
+	print "infinite loop-$num\n";
 }
+
+
