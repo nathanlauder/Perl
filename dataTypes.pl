@@ -37,8 +37,8 @@ while ( my ($key, $value) = each %hash ) {
 my $x = 0;
 my $y = 10;
 while($x++ < 10 && $y-- > 0) {
+      print "$x, $y\n";
       if ($x==4) {
             print "Halfway there\n";
       }
-      print "$x, $y\n";
 }
