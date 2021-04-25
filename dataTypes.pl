@@ -13,7 +13,7 @@ print("$netID$emailSuffix\n");
 my $z= 10;
 my $n = "foobar";
 my @array = ("something", 282005, 14.3);
-my %hash = ("Nathan" => "CompSci", "Taylor" => "Biology", "Lauren" => "Pharmacy");
+my %hash = ("Nathan" => "CompSci", "Jonah" => "CompSci", "Erik" => "CompSci-PoliSci");
 
 
 # basic arrays are symbolized with an @
