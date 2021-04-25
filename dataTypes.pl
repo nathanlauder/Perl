@@ -44,11 +44,11 @@ while ( my ($key, $value) = each %hash ) {
 my $x = 0;
 my $y = 10;
 while($x++ < 10 && $y-- > 0) {
-	unless ($x==5){
-		print "$x, $y\n";
+    unless ($x==5){
+	print "$x, $y\n";
     }
     else {
-		print "HALFWAY THERE\n";
+	print "HALFWAY THERE\n";
     }
 }
 #my $num = 0;
