@@ -9,6 +9,9 @@ my $netID = "YOUR_EMAIL";
 my $emailSuffix = '@creighton.edu';
 print("$netID$emailSuffix\n");
 
+print "Hello world\n"; # Hello world
+print 'Hello world\n'; # Hello world\n
+
 
 my $z= 10;
 my $n = "foobar";
