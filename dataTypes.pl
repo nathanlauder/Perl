@@ -18,6 +18,16 @@ my $n = "foobar";
 my @array = ("something", 282005, 14.3);
 my %hash = ("Nathan" => "CompSci", "Jonah" => "CompSci", "Erik" => "CompSci-PoliSci");
 
+^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4}$
+
+my $example = "The dog is over there.\n"
+$example =~ s/dog/cat/;
+print $example; #The cat is over there.
+
+my $str = "foo";
+if ($str =~ m/foo/) {
+    print "They match!";
+}
 
 # basic arrays are symbolized with an @
 # and accessed by index with []
