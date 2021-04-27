@@ -1,6 +1,6 @@
 use strict;
 
-package person;
+package Person;
 
 sub new {
     my $class = shift;
